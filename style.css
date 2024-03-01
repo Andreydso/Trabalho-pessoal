@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333233;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #090909;
+    flex-wrap: wrap;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb > a {
+    text-decoration: none;
+    color: #ffff00;
+    display: list-item;
+}
+
+ul {
+    position: relative;
+    text-align: right;
+    float: right !important;
+}
+
+.ul1 {
+    position: relative;
+    text-align: right;
+    float: right !important;
+}
+
+.logo {
+    position: absolute;
+    display: inline-block;
+    font-size: 2.1rem;
+}
