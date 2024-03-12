@@ -1,14 +1,37 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
-    
+    background-color: rgb(50, 50, 50);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .text-two {
-    color: yellow;
+    color: black;
     padding-left: 10px;
 
 }
 
 .text-two:hover {
-    color: orange;
+    color: rgb(50, 50, 50);
+    text-decoration: underline;
+    text-shadow: ;
+}
+
+.list1 {
+    margin-right: 1.0rem;
+}
+
+.text-one {
+    color: black;
+}
+
+.text-one:hover {
+    color: rgb(50, 50, 50);
     text-decoration: underline;
 }
